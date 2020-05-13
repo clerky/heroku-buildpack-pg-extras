@@ -5,4 +5,6 @@ set -ueo pipefail
 
 BUILD_DIR=$1
 
+"$BUILD_DIR/.heroku/bin/heroku" plugins
 "$BUILD_DIR/.heroku/bin/heroku" plugins:install heroku-pg-extras
+"$BUILD_DIR/.heroku/bin/heroku" plugins
