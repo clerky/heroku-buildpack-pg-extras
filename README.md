@@ -6,5 +6,5 @@ Usage:
 
 ``` sh
 heroku buildpacks:add heroku-community/cli
-heroku buildpacks:add clerky/heroku-buildpack-pg-extras https://github.com/some/buildpack.git
+heroku buildpacks:add https://github.com/clerky/heroku-buildpack-pg-extras.git
 ```
