@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# bin/compile <build-dir> <cache-dir>
+
+set -ueo pipefail
+
+heroku plugins:install heroku-pg-extras
